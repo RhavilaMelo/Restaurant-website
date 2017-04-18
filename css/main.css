@@ -9,6 +9,7 @@
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -48,6 +49,9 @@ h1 {
   margin: 0.67em 0; }
 
 h2 {
+  font-family: 'Amatic SC', cursive; }
+
+h4 {
   font-family: 'Amatic SC', cursive; }
 
 /* Grouping content
@@ -434,13 +438,19 @@ img {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0 0 .75em; }
 
+h4 {
+  font-size: 2.25rem;
+  color: #ffffff;
+  letter-spacing: 5px; }
+
 h1:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
   margin: 0; }
 
 p.light {
   font-family: "Open Sans";
   font-size: 1.125rem;
-  line-height: 1.45; }
+  line-height: 1.45;
+  color: #ffffff; }
 
 p.dark {
   color: #333333;
@@ -484,6 +494,51 @@ p.dark {
 .about {
   padding: 10vh 0; }
 
+footer {
+  padding: 10vh 0;
+  background-color: #0a0a0a; }
+
+input {
+  width: 90%;
+  height: 40px;
+  border: 2px solid gray;
+  background-color: #000000;
+  margin-bottom: 10px; }
+  input:focus {
+    border: 2px solid #ffffff;
+    outline-width: 0; }
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Open Sans; }
+
+footer a {
+  color: #666666;
+  text-decoration: none; }
+  footer a:hover, footer afocus {
+    color: #333333; }
+
+.social-links {
+  font-size: 1.5rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 25px 0; }
+
+.nav-footer {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 1rem;
+  font-family: Open Sans;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 .btn {
   display: inline-block;
   padding: 1.55em 4.7em;
@@ -509,3 +564,15 @@ p.dark {
   line-height: 20px; }
   .btn--light:hover, .btn--lightfocus {
     background: #40bf40; }
+
+#submit {
+  background-color: #ffcc00;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px; }
+  #submit:hover, #submitfocus {
+    background: #e6b800; }
