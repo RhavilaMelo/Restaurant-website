@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -439,7 +440,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 0 .75em; }
 
 h1 {
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 4.13rem;
+  letter-spacing: 1.5rem; }
+
+h2 {
+  font-size: 2.57142857rem; }
 
 h4 {
   font-size: 2.25rem;
@@ -497,6 +503,25 @@ p.dark {
 .about {
   padding: 10vh 0; }
 
+.todays-specialty {
+  background-image: url("../img/section2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25vh 0; }
+
+.service-banner {
+  background-color: #CFD1D1;
+  background-image: url("../img/bestservice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 25vh 0;
+  background-blend-mode: multiply;
+  background-attachment: fixed; }
+  .service-banner h1 {
+    letter-spacing: 1.5rem; }
+
 footer {
   padding: 10vh 0;
   background-color: #0a0a0a; }
@@ -541,16 +566,6 @@ footer a {
   font-family: Open Sans;
   font-weight: bold;
   text-transform: uppercase; }
-
-.service-banner {
-  background-color: gray;
-  background-image: url("../img/bestservice.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: ccenter;
-  background-background-attachment: fixed;
-  padding: 25vh 0;
-  background-blend-mode: multiply; }
 
 .btn {
   display: inline-block;
