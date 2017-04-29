@@ -499,6 +499,7 @@ h1 {
 
 h2 {
   font-size: 2.57142857rem;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -573,6 +574,39 @@ p.dark {
   background-size: cover;
   background-attachment: fixed;
   padding: 25vh 0;
+}
+
+.menu {
+  background-color: #efefef;
+  padding: 10vh 0;
+}
+
+.menu h2 {
+  margin-top: 0;
+}
+
+.menu h3 {
+  color: #cccccc;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.menu h3:first-child {
+  margin-top: 1rem;
+}
+
+.menu p {
+  font-family: Open Sans;
+  color: #333333;
+  font-weight: bolder;
+}
+
+.menu span {
+  color: #cc9900;
+}
+
+.delivery {
+  padding: 10vh 0;
 }
 
 .service-banner {
