@@ -541,6 +541,14 @@ p.dark {
   flex: 0 0 100%;
 }
 
+@media (min-width: 800px) {
+  .col--1-3 {
+    -webkit-flex-basis: 33.3333%;
+    -ms-flex-preferred-size: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+}
+
 .main-header {
   position: absolute;
   top: 0;
