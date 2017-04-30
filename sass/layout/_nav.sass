@@ -9,8 +9,10 @@
   transition: all ease-in-out 250ms
 
   @media(min-width: 725px)
-    background: none
-    position: relative
+    //background: none
+    background: darken($green, 20%)
+    //position: relative
+    position: fixed
     flex: auto
     left: 0
     padding: 1rem 0
@@ -52,9 +54,9 @@
       background: rgba(0, 0, 0, .10)
       @media(min-width: 725px)
         background: none
-        color: tomato
+        color: darken(tomato, 35%)
         flex-basis: auto
-
+        
   &.is-open
     left: 0
 

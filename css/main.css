@@ -592,8 +592,8 @@ p.dark {
 
 @media (min-width: 725px) {
   .main-nav {
-    background: none;
-    position: relative;
+    background: #339933;
+    position: fixed;
     -webkit-flex: auto;
     -ms-flex: auto;
     flex: auto;
@@ -675,7 +675,7 @@ p.dark {
 @media (min-width: 725px) {
   .main-nav a:hover {
     background: none;
-    color: tomato;
+    color: #941600;
     -webkit-flex-basis: auto;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
